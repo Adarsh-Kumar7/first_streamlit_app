@@ -49,7 +49,7 @@ except URLError as e:
 #streamlit.stop()
 
 #my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-my_cur = my_cnx.cursor()
+#my_cur = my_cnx.cursor()
 #my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 streamlit.header("View Our Fruit List - Add You Favorites!")
