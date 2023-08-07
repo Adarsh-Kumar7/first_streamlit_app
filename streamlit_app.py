@@ -48,7 +48,7 @@ except URLError as e:
 # FruityVice data JSON value normalized 
 # output table
 #don't run anything while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
